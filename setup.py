@@ -31,6 +31,9 @@ from setuptools.command import sdist
 del sdist.finders[:]
 
 ANSIBLE_PB_DIR = 'elasticluster/providers/ansible-playbooks'
+install_requires=[
+    'ansible>=4.2.0'
+],
 
 
 def ansible_pb_files():
