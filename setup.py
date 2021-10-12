@@ -53,7 +53,7 @@ from setuptools import setup, find_packages
 required_packages = [
     'PyCLI',
     'paramiko',
-    'ansible==1.3.3',
+    'ansible==4.2.0',
     'voluptuous',
     'configobj',
     # EC2 clouds
